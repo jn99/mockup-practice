@@ -1,0 +1,82 @@
+body{
+  font-family: fantasy;
+}
+
+.content-wrapper{
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1{
+  color:mediumpurple;
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.main-nav ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.main-nav li{
+  float: left;
+  border-right: 2px solid purple;
+  width: 14.15%;
+  background-color: mediumpurple;
+}
+
+.main-nav a{
+  line-height: 2rem;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+aside{
+  clear: both;
+  background-color:thistle;
+  float: left;
+  height: 25rem;
+}
+
+aside ul{
+  list-style-type: none;
+  padding: 7rem;
+}
+
+aside li{
+  padding: 5px 0;
+}
+
+aside a{
+  text-decoration: none;
+  color: white;
+}
+
+figure{
+  background-color: gainsboro;
+  height: 25rem;
+  display: block;
+}
+
+figure img{
+  padding-top: 2rem;
+  width: 500px;
+  height: 333px;
+}
+
+a:hover{
+  background-color: purple;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+}
+
+
+
+
+
+
